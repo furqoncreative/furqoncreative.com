@@ -1,4 +1,17 @@
-baseURL: "https://example.com"
+baseURL: "https://furqoncreative.com"
 languageCode: "en-us"
-title: "Hugo Novela"
+title: "Furqon Creative"
 pygmentsstyle: 'monokai'
+
+# Theme settings
+# theme: novela
+paginate: 6
+social:
+  twitter: "#"
+  github: "#"
+  instagram: "#"
+  linkedin: "#"
+  dribbble: "#"
+  youtube: "#"
+taxonomies:
+  author: authors
