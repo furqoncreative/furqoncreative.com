@@ -1,6 +1,15 @@
 {{ define "main" }}
 
-{{ partial "articles/hero.html" . }}
-{{ partial "articles/articles.html" . }}
+<section class="section" relative id="Articles__Hero">
+  <div class="heading-container">
+    <h1 class="hero-heading">{{ .Page.Params.hero.heading }}</h1>
+
+    {{ partial "social-links/social-links.html" . }} {{ $script := resources.Get
+    "js/toggleLayout.js" }}
+
+  </div>
+</section>
+
+<script src="{{ $script.RelPermalink }}"></script>
 
 {{ end }}
